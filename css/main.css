@@ -167,3 +167,19 @@
             border: none; }
           .login-container.right .login-container-bottom .input-field-wrapper .input-field input::placeholder {
             color: #000000; }
+      .login-container.right .login-container-bottom .button-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 167px 0px 128px;
+        border: solid; }
+        .login-container.right .login-container-bottom .button-wrapper button {
+          width: 260px;
+          height: 60px;
+          border-radius: 30px;
+          box-shadow: 0 10px 30px 0 var(--black-7);
+          background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+          color: #ffffff;
+          text-transform: uppercase;
+          font-size: 12px;
+          letter-spacing: 1px; }
