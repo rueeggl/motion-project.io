@@ -108,9 +108,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    .account {
+    .login-container-top {
       display: flex;
-      border: solid rebeccapurple;
       flex-direction: row;
       justify-content: flex-end;
       padding-top: 51px;
@@ -147,8 +146,48 @@
         text-align: center;
       }
     }
-    .sign-in {
-      border: solid red;
+    .login-container-bottom {
+      padding-top: 141px;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 40px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+      }
+      form {
+        padding-top: 64px;
+      }
+      .input-field-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .input-field {
+          width: 340px;
+          margin-bottom: 42.5px;
+          padding-bottom: 13px;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+          img {
+            padding-right: 21px;
+          }
+          input {
+            text-transform: capitalize;
+            font-size: 16px;
+            outline: none;
+            border: none;
+          }
+          input::placeholder {
+            color: #000000;
+          }
+        }
+      }
     }
   }
 }
