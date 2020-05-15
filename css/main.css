@@ -171,8 +171,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 167px 0px 128px;
-        border: solid; }
+        padding: 167px 0px 128px; }
         .login-container.right .login-container-bottom .button-wrapper button {
           width: 260px;
           height: 60px;
