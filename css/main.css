@@ -20,16 +20,15 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end; }
-    .login-container.left .content {
+    .login-container.left .content-left {
       padding-bottom: 126px;
-      border: solid red;
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .login-container.left .content .buttons {
+      .login-container.left .content-left .buttons {
         padding-top: 40px;
         display: flex; }
-        .login-container.left .content .buttons button {
+        .login-container.left .content-left .buttons button {
           width: 126px;
           height: 40px;
           background-color: transparent;
@@ -38,7 +37,6 @@
           cursor: pointer; }
     .login-container.left .icons {
       padding-bottom: 100px;
-      border: solid green;
       display: flex;
       flex-direction: row;
       justify-content: center; }
@@ -100,4 +98,43 @@
     justify-content: center; }
   .login-container.right {
     width: 60%;
-    border: solid blue; }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .login-container.right .account {
+      display: flex;
+      border: solid rebeccapurple;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 51px;
+      align-items: baseline; }
+      .login-container.right .account p {
+        width: 165px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: right;
+        padding-right: 14px; }
+      .login-container.right .account button {
+        color: #000000;
+        width: 120px;
+        height: 40px;
+        border-radius: 30px;
+        box-shadow: 0 10px 30px 0 var(--black-7);
+        border: solid 2px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-align: center; }
+    .login-container.right .sign-in {
+      border: solid red; }
